@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>manajemen</name>
+  <version>0.0.1</version>
+  <description>Manajemen package</description>
+
+  <maintainer email="email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>custom_msg</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>message_runtime</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- Export dependencies -->
+  <build_export_depend>custom_msg</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+
+  <!-- Execution dependencies -->
+  <exec_depend>custom_msg</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+</package>
+
+
